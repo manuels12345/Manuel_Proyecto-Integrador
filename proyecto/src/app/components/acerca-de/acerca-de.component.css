@@ -9,17 +9,17 @@
 
 #nombre{
     font-weight: bold;
-    padding-top: 30%;
+    padding-top: 20%;
 }
 
 #acerca{
     font-weight: bold;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 /* foto de perfil style */
 
-@media (min-width: 576px){
+@media (min-width: 575px){
     #fotoP{
         position: absolute;
         width: 15%;
@@ -30,14 +30,14 @@
     }
 }
 
-@media (max-width: 576px){
+@media (max-width: 575px){
     #fotoP{
         position: absolute;
         width: 35%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 35%;
-        top: 600px;
+        top: 650px;
     }
 }
 
@@ -47,7 +47,8 @@
         width: 40%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 32%;
-        top: 692px;
+        left: 35%;
+        top: 700px;
     }
+
 }

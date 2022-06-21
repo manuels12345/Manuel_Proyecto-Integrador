@@ -1,3 +1,57 @@
 #logoAP{
     width: 150px;
 }
+
+img{
+    width: 50px;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+.redes{
+  margin-right: 0.5em;
+}
+
+.redes img{
+  margin-right: 00.5em;
+}
+
+.btn{
+  border-width: medium;
+}
+
+/*@media(max-width: 575px){
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .redes{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+}
+*/
+@media (max-width: 575px) {
+  .container{
+    flex-direction: column;
+  }
+
+  .redes{
+    display: flex;
+    align-items: center;
+  }
+
+  .redes img{
+    margin: 0.5em;
+  }
+}
+
